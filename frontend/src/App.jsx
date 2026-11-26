@@ -2,7 +2,7 @@
 import { useState } from 'react'
 import './App.css'
 
-const API = import.meta.env.VITE_API_URL || 'http://localhost:10000/api'
+const API = 'https://crm-system-694e.onrender.com/api'
 
 function App() {
   const [login, setLogin] = useState('admin')
